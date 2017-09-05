@@ -1,0 +1,21 @@
+/* Pixelcons (c) 2017, Tim "timmyRS" Speckhals */
+
+@font-face{font-family:"Pixelcons";src:url("Pixelcons.ttf")format("truetype")}
+
+*.pixelcon,*[class^="pixelcon-"]{font-family:"Pixelcons"}
+b.pixelcon,b[class^="pixelcon-"]{font-weight:100}
+i.pixelcon,i[class^="pixelcon-"]{font-style:normal}
+
+.pixelcon-pixelcons:before{content:"A"}
+.pixelcon-console:before{content:"C"}
+.pixelcon-email:before{content:"E"}
+.pixelcon-user:before{content:"U"}
+.pixelcon-apple:before{content:"a"}
+.pixelcon-facebook:before{content:"f"}
+.pixelcon-twitter:before{content:"i"}
+.pixelcon-twitter-border:before{content:"j"}
+.pixelcon-twitch:before{content:"t"}
+.pixelcon-windows:before{content:"w"}
+
+.pixelcon-console:not(.unanimated):before{animation-name:pixelconConsole;animation-duration:1s;animation-iteration-count:infinite}
+@keyframes pixelconConsole{0%,49.99%{content:"C"}50%,99.99%{content:"c"}}

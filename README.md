@@ -10,7 +10,7 @@ CSS Pixelart Icons. No JavaScript required.
 
 Somewhere before `</head>`, put this:
 
-	<link rel="stylesheet" href="https://cdn.rawgit.com/timmyrs/Pixelcons/1.0.1/Pixelcons.css">
+	<link rel="stylesheet" href="https://cdn.rawgit.com/timmyrs/Pixelcons/1.0.2/Pixelcons.css">
 
 ### The I-can-download-and-host-it-myself Way
 

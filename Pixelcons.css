@@ -7,11 +7,14 @@ b.pixelcon,b[class^="pixelcon-"]{font-weight:100}
 i.pixelcon,i[class^="pixelcon-"]{font-style:normal}
 
 .pixelcon-pixelcons:before{content:"A"}
+.pixelcon-bell:before{content:"B"}
+.pixelcon-bell-border:before{content:"b"}
 .pixelcon-console:before{content:"C"}
 .pixelcon-dislike:before{content:"D"}
 .pixelcon-email:before{content:"E"}
 .pixelcon-like:before{content:"L"}
 .pixelcon-user:before{content:"U"}
+.pixelcon-warning:before{content:"W"}
 .pixelcon-apple:before{content:"a"}
 .pixelcon-facebook:before{content:"f"}
 .pixelcon-twitter:before{content:"i"}

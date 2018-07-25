@@ -1,4 +1,4 @@
-/* Pixelcons 1.0.2 (c) 2017-2018, Tim "timmyRS" Speckhals */
+/* Pixelcons 1.1, (c) 2017-2018, Hellsh */
 
 @font-face{font-family:"Pixelcons";src:url("Pixelcons.ttf")format("truetype")}
 
@@ -16,6 +16,7 @@ i.pixelcon,i[class^="pixelcon-"]{font-style:normal}
 .pixelcon-user:before{content:"U"}
 .pixelcon-warning:before{content:"W"}
 .pixelcon-apple:before{content:"a"}
+.pixelcon-android:before{content:"d"}
 .pixelcon-facebook:before{content:"f"}
 .pixelcon-twitter:before{content:"i"}
 .pixelcon-twitter-border:before{content:"j"}

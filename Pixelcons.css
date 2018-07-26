@@ -17,6 +17,7 @@ i[class^="pixelcon-"]{font-style:normal}
 .pixelcon-email:before{content:"E"}
 .pixelcon-facebook:before{content:"f"}
 .pixelcon-fast-forward:before{content:"F"}
+.pixelcon-join:before{content:"J"}
 .pixelcon-like:before{content:"L"}
 .pixelcon-pause:before{content:"Q"}
 .pixelcon-play:before{content:"P"}

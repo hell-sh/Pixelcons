@@ -2,26 +2,30 @@
 
 @font-face{font-family:"Pixelcons";src:url("Pixelcons.ttf")format("truetype")}
 
-*.pixelcon,*[class^="pixelcon-"]{font-family:"Pixelcons"}
-b.pixelcon,b[class^="pixelcon-"]{font-weight:100}
-i.pixelcon,i[class^="pixelcon-"]{font-style:normal}
+*[class^="pixelcon-"]{font-family:"Pixelcons"}
+b[class^="pixelcon-"],strong[class^="pixelcon-"]{font-weight:100}
+i[class^="pixelcon-"]{font-style:normal}
 
-.pixelcon-pixelcons:before{content:"A"}
+.pixelcon-android:before{content:"d"}
+.pixelcon-apple:before{content:"a"}
 .pixelcon-bell:before{content:"B"}
 .pixelcon-bell-border:before{content:"b"}
-.pixelcon-console:before{content:"C"}
+.pixelcon-console:before,.pixelcon-console-unanimated:before{content:"C"}
+.pixelcon-console:before{animation-name:pixelconConsole;animation-duration:1s;animation-iteration-count:infinite}
+@keyframes pixelconConsole{0%,49.99%{content:"C"}50%,99.99%{content:"c"}}
 .pixelcon-dislike:before{content:"D"}
 .pixelcon-email:before{content:"E"}
-.pixelcon-like:before{content:"L"}
-.pixelcon-user:before{content:"U"}
-.pixelcon-warning:before{content:"W"}
-.pixelcon-apple:before{content:"a"}
-.pixelcon-android:before{content:"d"}
 .pixelcon-facebook:before{content:"f"}
+.pixelcon-fast-forward:before{content:"F"}
+.pixelcon-like:before{content:"L"}
+.pixelcon-pause:before{content:"Q"}
+.pixelcon-play:before{content:"P"}
+.pixelcon-plus:before{content:"R"}
+.pixelcon-plus-bold:before{content:"T"}
+.pixelcon-settings:before{content:"S"}
+.pixelcon-twitch:before{content:"t"}
 .pixelcon-twitter:before{content:"i"}
 .pixelcon-twitter-border:before{content:"j"}
-.pixelcon-twitch:before{content:"t"}
+.pixelcon-user:before{content:"U"}
+.pixelcon-warning:before{content:"W"}
 .pixelcon-windows:before{content:"w"}
-
-.pixelcon-console:not(.unanimated):before{animation-name:pixelconConsole;animation-duration:1s;animation-iteration-count:infinite}
-@keyframes pixelconConsole{0%,49.99%{content:"C"}50%,99.99%{content:"c"}}

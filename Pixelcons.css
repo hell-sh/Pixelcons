@@ -1,10 +1,8 @@
-/* Pixelcons 1.1, (c) 2017-2018, Hellsh */
+/* Pixelcons (c) 2017-2018, Hellsh */
 
 @font-face{font-family:"Pixelcons";src:url("Pixelcons.ttf")format("truetype")}
 
-*[class^="pixelcon-"]{font-family:"Pixelcons"}
-b[class^="pixelcon-"],strong[class^="pixelcon-"]{font-weight:100}
-i[class^="pixelcon-"]{font-style:normal}
+[class^="pixelcon-"]{font-family:"Pixelcons";font-weight:100;font-style:normal}
 
 .pixelcon-android:before{content:"d"}
 .pixelcon-apple:before{content:"a"}
@@ -19,6 +17,7 @@ i[class^="pixelcon-"]{font-style:normal}
 .pixelcon-facebook:before{content:"f"}
 .pixelcon-fast-forward:before{content:"F"}
 .pixelcon-forward:before{content:"G"}
+.pixelcon-information:before{content:"I"}
 .pixelcon-join:before{content:"J"}
 .pixelcon-like:before{content:"L"}
 .pixelcon-pause:before{content:"Q"}

@@ -10,9 +10,11 @@
 .pixelcon-bell:before{content:"B"}
 .pixelcon-bell-border:before{content:"b"}
 .pixelcon-chat:before{content:"K"}
+.pixelcon-checkmark:before{content:"A"}
 .pixelcon-console:before,.pixelcon-console-unanimated:before{content:"C"}
 .pixelcon-console:before{animation-name:pixelconConsole;animation-duration:1s;animation-iteration-count:infinite}
 @keyframes pixelconConsole{0%,49.99%{content:"C"}50%,99.99%{content:"c"}}
+.pixelcon-copy:before{content:"Y"}
 .pixelcon-crown:before{content:"M"}
 .pixelcon-dislike:before{content:"D"}
 .pixelcon-email:before{content:"E"}

@@ -33,5 +33,8 @@
 .pixelcon-twitter:before{content:"i"}
 .pixelcon-twitter-border:before{content:"j"}
 .pixelcon-user:before{content:"U"}
+.pixelcon-user-border:before{content:"u"}
+.pixelcon-user-add:before{content:"V"}
+.pixelcon-user-add-border:before{content:"v"}
 .pixelcon-warning:before{content:"W"}
 .pixelcon-windows:before{content:"w"}
